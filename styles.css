@@ -1,0 +1,42 @@
+body {   
+    display: flex;       
+    flex-wrap: wrap;    
+    margin: 0;
+}
+
+div {
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+div#one {
+    background-color: red;
+}
+
+div#two {
+    background-color: green;
+}
+div#three {
+    background-color: yellow;
+}
+div#four {
+    background-color: blue;
+}
+
+button {
+    display: block;
+    height: 75px;
+    font-family: Arial;
+    font-size: 25px;
+    width: 150px;
+    margin-top: calc(50vh - 75px / 2);
+    margin-left: calc(50vw - 150px /2);
+
+    position: fixed;
+
+    z-index: 1000;
+}
